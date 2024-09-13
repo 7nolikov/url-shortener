@@ -48,7 +48,7 @@ class ShortenerControllerIntegrationTest {
   @Test
   void testGetOriginalUrl() {
     // Step 1: Create Short URL
-    String originalUrl = "https://www.example.com";
+    String originalUrl = "https://www.second.com";
     HttpHeaders headers = new HttpHeaders();
     headers.add("Content-Type", "text/plain");
 
